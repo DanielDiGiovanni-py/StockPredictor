@@ -13,7 +13,7 @@ import random
 import time
 from ib_insync import IB, Stock
 
-# Apply nest_asyncio to handle event loops in Spyder/Jupyter environments
+# Apply nest_asyncio to handle event loops in a Spyder/Jupyter environment
 nest_asyncio.apply()
 
 # Helper function to close any old TWS/IB Gateway processes
